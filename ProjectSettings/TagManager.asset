@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - Ground
+  - Gun
+  - Boss
+  - Wall
+  - Center
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Player
+  - Boss
+  - BossHitBox
+  - Ground
+  - wall
+  - PlatFomer
+  - PlayerHitBox
+  - IgnoreBossHitBox
+  - wallforplayer
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: BackGround
+    uniqueID: 1634892787
+    locked: 0
+  - name: Boss
+    uniqueID: 622579195
+    locked: 0
+  - name: Player
+    uniqueID: 4180395647
+    locked: 0
+  - name: Im
+    uniqueID: 3778980837
+    locked: 0
+  - name: ObjHitBox
+    uniqueID: 2769268591
+    locked: 0
+  m_RenderingLayers:
+  - Default
