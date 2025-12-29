@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class StatsAll : MonoBehaviour
@@ -11,6 +12,18 @@ public class StatsAll : MonoBehaviour
     public float MoveSpeed = 2f;
     public float JumpPower = 10f;
     public float DashPower = 10f;
+
+    private void Awake()
+    {
+        
+        ApiManager apiManager = FindAnyObjectByType<ApiManager>();
+        if (apiManager != null) 
+        {
+            HP = apiManager.health;
+            Debug.Log("here" + HP);
+        }
+        
+    }
 
     private void Update()
     {

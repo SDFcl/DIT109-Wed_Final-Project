@@ -185,4 +185,13 @@ public class GameManager : MonoBehaviour
         }
         
     }
+
+    public void Savedata()
+    {
+        ApiManager apiManager = FindAnyObjectByType<ApiManager>();
+        if (apiManager != null)
+        {
+            apiManager.SavePlayerData();
+        }
+    }
 }
